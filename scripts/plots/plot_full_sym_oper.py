@@ -6,9 +6,9 @@ import networkx as nx
 from scipy.spatial import cKDTree          # fast neighbour search
 
 
-from bare_flake import bare
-from hyd_flake  import hyd
-from new_sym_logics import sym
+from scripts.bare_flake import bare
+from scripts.hyd_flake  import hyd
+from scripts.new_sym_logics import sym
 
 
 m = 15          # full flake radius
