@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import networkx as nx
 
-from bare_flake import bare
-from hyd_flake  import hyd
-from sym_check  import sym
-from center_H   import add_h
+from scripts.bare_flake import bare
+from scripts.hyd_flake  import hyd
+from scripts.sym_check  import sym
+from scripts.center_H   import add_h
 
 #parameters
 m = 15  # total flake radius
